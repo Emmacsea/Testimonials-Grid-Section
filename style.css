@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    background: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biq-card {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.left, .right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left .left-top {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 1.3em;
+}
+
+.p {
+    padding: 1.3em;
+    width: 470px;
+    height: auto;
+    border-radius: .3em;
+}
+
+.left-top .card1 {
+    background: hsl(263, 55%, 52%);
+}
+
+.left-top .card2 {
+    background: hsl(217, 19%, 35%);
+    
+}
+
+.p .heads {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.p img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-top: .1em;
+}
+
+.p .dt {
+    line-height: 1.2em;
+}
+
+.d {
+    color: hsl(0, 0%, 81%);
+    font-size: .7em;
+}
+
+.a {
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-size: .6em;
+}
+
+.p .bodysp {
+    color: hsl(210, 46%, 95%);
+    font-size: 1em;
+    font-weight: 500;
+    margin: .6em 0;
+}
+
+.p .bodysp1 {
+    color: hsl(0, 0%, 81%);
+    font-size: .8em;
+    line-height: 1.1em;
+}
+
+.j {
+    width: 220px;
+    height: auto;
+    padding: 1.3em;
+    border-radius: .3em;
+}
+
+.j img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-top: .1em;
+}
+
+.headz {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.h {
+    line-height: 1.1em;
+}
+
+.je {
+    color: hsl(217, 19%, 35%);
+    font-size: .7em;
+}
+
+.ve {
+    color: hsl(217, 19%, 35%);
+    opacity: 50%;
+    font-size: .6em;
+}
+
+.j .bodyp {
+    color: hsl(210, 46%, 95%);
+    font-size: 1em;
+    font-weight: 500;
+    margin: .6em 0;
+}
+
+.j .bodyp1 {
+    color: hsl(0, 0%, 81%);
+    font-size: .8em;
+    line-height: 1.1em;
+}
+
+.j .body {
+    color: hsl(219, 29%, 14%);
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: .6em 0;
+}
+
+.j .body1 {
+    color: hsl(217, 19%, 35%);
+    font-size: .7em;
+    line-height: 1.1em;
+}
+
+
+
+.left .left-bottom {
+    display: flex;
+    gap: 15px;
+}
+
+.left-bottom .card3 {
+    background: hsl(0, 0%, 100%);
+}
+
+.left-bottom .card4 {
+    background: hsl(219, 29%, 14%);
+}
+
+.right .card5 {
+    background: hsl(0, 0%, 100%);
+    padding: 1.3em 1.3em;
+    width: 230px;
+    height: 490px;
+    border-radius: .3em;
+}
+
+.headz img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-top: .1em;
+}
+
+.card5 .body5 {
+    color: hsl(219, 29%, 14%);
+    font-size: 1em;
+    margin: .5em 0;
+}
+
+.card5 .bodyp5 {
+    color: hsl(217, 19%, 35%);
+    font-size: .81em;
+    font-weight: 300;
+    margin-top: 1.2em;
+}
